@@ -1,0 +1,5 @@
+# Used on Railway / Render only. Adds the PostgreSQL driver.
+# psycopg 3 is used rather than psycopg2 because it ships wheels for
+# current Python versions and needs no compiler.
+-r requirements.txt
+psycopg[binary]>=3.2

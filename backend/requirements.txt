@@ -1,0 +1,9 @@
+# Local development. SQLite is built into Python, so no database driver
+# is needed here. Versions are minimums so pip can pick builds that match
+# your Python version.
+fastapi>=0.115
+uvicorn[standard]>=0.34
+sqlalchemy>=2.0.36
+pydantic[email]>=2.10
+httpx>=0.28
+python-dotenv>=1.0
